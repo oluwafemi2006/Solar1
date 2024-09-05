@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Poppins sans-serif;
+}
+body{
+    margin: 0px;
+    background-color: rgb(235, 240, 245);
+}
+#menu-icon{
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+    margin-left: 60px;
+    display: none;
+}
+.h1{
+    color: blueviolet;
+}
+#hold:hover{
+    color: rgb(14, 9, 19) !important;
+    text-decoration: underline !important;
+}
+
+
+@media only screen and (max-width: 700px){
+    .benefit{
+        display: flex;
+        flex-direction: column;
+    }
+    #benefit1{
+        width: 80% !important;
+        margin-left: 10%;
+    }
+    #benefit2{
+        width: 80% !important;
+        margin-left: 10%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 600px) {
+    #where{
+        flex-direction: column !important;
+    }
+    #word{
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+    #pict{
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+    #word1{
+        width: 80% !important;
+        margin-left: 10% !important;
+        height: 200% !important;
+    }
+    #test{
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+} 
+
+/*Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #head{
+       font-size: 100% !important;
+    }
+    #size{
+        width: 100% !important;
+    }    
+}
+
+@media only screen and (max-width: 1130px){
+    #menu-icon{
+        display: block;
+        margin-right: 50px;
+        
+    }
+    .navlink{
+        position: absolute !important;
+        top: 60px !important;
+        right: -100% !important;
+        bottom: 0 !important;
+        width: 20% !important;
+        height: 80% !important;
+        background-color: rgb(27, 13, 107) !important;
+        display: flex !important; 
+        margin-right: 0px !important;
+        margin-top: 10px !important;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navlink a{
+        display: block !important;
+        margin-bottom: 15px !important;
+        margin-left: 10% !important; 
+        text-align: center !important;
+    }
+    .navlink.open{
+        right: 0 !important ;
+    } 
+    #test{
+        font-size: 100% !important;
+    }
+}
+
+/*Large devices (laptops/desktops, 992px and up)*/ 
+@media only screen and (max-width: 992px) {
+    #west{
+        font-size: 120% !important;
+        width: 80%px !important;
+    }
+    #east{
+        height: 350px !important;
+        width: 80% !important;
+    }
+    #quest{
+        font-size: 120% !important
+    }
+    #tion{
+        height: 30px !important;
+        width: 100px !important;
+        margin: auto !important;
+        padding-top: 0px !important;
+    }
+    #globe{
+        font-size:100% !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    #recent{
+        padding-top: 0px !important;
+    }
+    
+    #foots{
+        margin-top: 50px;
+    }
+    #foots1{
+        font-size: 120%;
+    }
+}
