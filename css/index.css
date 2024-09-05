@@ -14,7 +14,7 @@ body{
     cursor: pointer;
     color: white;
     margin-top: 20px;
-    /* margin-left: 20px; */
+    /* margin-left: ; */
     display: none;
 }
 .h1{
@@ -38,6 +38,12 @@ body{
     #benefit2{
         width: 80% !important;
         margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 380px){
+    #mess{
+        display: flex;
+        /* flex-direction: column; */
     }
 }
 
@@ -81,28 +87,37 @@ body{
         margin-right: 50px;
         
     }
+    .bx-bar .closebar{
+        display: none;
+    }
+    .bx-barshow .bar{
+        display: none;
+    }
     .navlink{
         position: absolute !important;
-        top: 60px !important;
-        right: -100% !important;
+        top: 70px !important;
+        left: 1px !important;
         bottom: 0 !important;
-        width: 20% !important;
-        height: 80% !important;
+        width: 100% !important;
+        height: 40% !important;
+        /* height: 80% !important; */
         background-color: rgb(27, 13, 107) !important;
         display: flex !important; 
         margin-right: 0px !important;
         margin-top: 10px !important;
-        align-items: center;
+        align-items: start;
         flex-direction: column;
+    
     }
     .navlink a{
         display: block !important;
         margin-bottom: 15px !important;
-        margin-left: 10% !important; 
+        margin-left: 5% !important; 
         text-align: center !important;
     }
-    .navlink.open{
-        right: 0 !important ;
+    .close{
+        /* left: 0 !important ; */
+        display: none;
     } 
     #test{
         font-size: 100% !important;
